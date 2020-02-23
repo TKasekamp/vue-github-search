@@ -1,6 +1,10 @@
 # vue-github-search
 
-[![Build Status](https://travis-ci.org/TKasekamp/vue-github-search.svg?branch=master)](https://travis-ci.org/TKasekamp/vue-github-search)
+![Node.js CI](https://github.com/TKasekamp/vue-github-search/workflows/Node.js%20CI/badge.svg)
+## Experimentation and new stuff
+### CI/CD
+- Github actions with auto deploy on master branch to Github Pages
+
 ## Project setup
 ```
 npm install
