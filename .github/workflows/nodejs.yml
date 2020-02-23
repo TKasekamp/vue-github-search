@@ -30,7 +30,8 @@ jobs:
       matrix:
         node-version: [10.x]
     steps:
-    - name: install and build
+    - uses: actions/checkout@master
+    - run: npm ci
     - run: npm run build
       env:
         CI: true
