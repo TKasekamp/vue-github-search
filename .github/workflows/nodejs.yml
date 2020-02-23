@@ -31,17 +31,6 @@ jobs:
         node-version: [10.x]
     steps:
     - name: install and build
-      uses: actions/checkout@v2
-    - run: npm ci
     - run: npm run build
       env:
         CI: true
-    - name: Deploy to production
-      uses: awb-pw/deploy-to-github-pages-action@master
-      env:
-        AUTHOR: TKasekamp
-        GITHUB_PAGE_NAME: vue-github-search
-        PA_TOKEN: ${{ secrets.PA_TOKEN }}
-        BUILD_PATH: public
-        USERNAME: TKasekamp
-        EMAIL: toniskasekamp@gmail.com
