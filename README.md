@@ -1,5 +1,6 @@
 # vue-github-search
 
+[![Build Status](https://travis-ci.org/TKasekamp/vue-github-search.svg?branch=master)](https://travis-ci.org/TKasekamp/vue-github-search)
 ## Project setup
 ```
 npm install
