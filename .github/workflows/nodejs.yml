@@ -24,7 +24,6 @@ jobs:
         
   deploy:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'master' }}
     needs: test
     strategy:
       matrix:
