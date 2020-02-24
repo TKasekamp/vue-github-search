@@ -8,6 +8,7 @@
 import { reactive, computed } from '@vue/composition-api';
 
 export default {
+  name: 'Composition',
   setup() {
     const state = reactive({
       count: 0,
