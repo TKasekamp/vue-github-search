@@ -1,17 +1,30 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Hello"/>
+    <v-container>
+      <v-row>
+        <v-col cols="12">
+          <SearchInput
+            @input="log"
+          />
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '../components/HelloWorld.vue';
+import SearchInput from '../components/SearchInput.vue';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    SearchInput,
+  },
+
+  methods: {
+    log(input) {
+      console.log(input);
+    },
   },
 };
 </script>

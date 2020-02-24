@@ -32,7 +32,7 @@ export default Vue.extend({
 
   methods: {
     sendMessage() {
-      // this.clearMessage();
+      this.$emit('input', this.message);
     },
     clearMessage() {
       this.message = '';
