@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput.vue when loading true is disabled and loading 1`] = `<v-text-field-stub errorcount="1" errormessages="" messages="" readonly="true" rules="" successmessages="" value="" backgroundcolor="" label="Search repositories" loading="true" loaderheight="2" appendoutericon="mdi-send" clearable="true" clearicon="mdi-close-circle" filled="true" type="text"></v-text-field-stub>`;
